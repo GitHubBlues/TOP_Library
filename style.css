@@ -17,8 +17,95 @@ body{
 .title-underline{
     display: flex;
     border: 0.25rem solid #DC0038;
-    margin: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0.3rem 0rem;
 }
+
+
+.btn-strip{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-left{
+    display: flex;
+    justify-content: left;
+}
+
+.btn-right{
+    display: flex;
+    justify-content: right;
+}
+
+
+.btn-add-item,
+.btn-search,
+.btn-show-all{
+    border: 0.3rem solid  #F7c200;
+    border-radius: 3rem;
+    font-size: large;
+    margin: 0.1rem 0.1rem 0.1rem 0.5rem;
+    padding: 0.1rem 0.8rem;
+}
+
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 4rem;
+}  
+
+#box-title,
+#box-name-first,
+#box-name-last,
+#box-pages{
+   margin: 0.5rem 1rem; 
+   width: 20 rem;  
+
+}
+
+#box-label-title,
+#box-label-name-first,
+#box-label-name-last,
+#box-label-pages,
+#box-label-read{
+    display: flex;
+    justify-content: flex-end;
+    width: 26rem;
+    background-color: #edededed;
+    margin: 0.4rem auto; 
+    align-items: center;
+    font-size: large;
+    border: 0.2rem solid #4ed7e0;
+    border-radius: 0.5rem;
+}
+
+#box-title,
+#box-name-first,
+#box-name-last,
+#box-pages{
+    border: 0.2rem solid black;
+    border-radius: 0.3rem;
+}
+
+
+
+#box-submit{
+    width: 25rem;
+    font-size: large;
+    border: 0.3rem solid  #F7c200; 
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+}
+
+#box-label-read{
+    display: flex; 
+    justify-content: center;
+}
+
+#box-read{
+    margin: 0.5rem 0.6rem 0.5rem 1rem;
+}
+
 
 .card-container{
     display: flex; 
@@ -72,55 +159,13 @@ body{
     padding: 1rem auto;
 }
 
-.add-library-item{
-    border: 0.2rem solid  #F7c200;
-    border-radius: 3rem;
+#box-search{
+    width: 25rem ;
+    margin: 1rem auto;
     font-size: large;
-    margin: 0.2rem auto 0rem 0.5rem;
-}
-
-.input-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0rem 4rem;
-}  
-
-#box-title,
-#box-name-first,
-#box-name-last,
-#box-pages{
-   margin: 0.5rem 1rem; 
-   width: 20 rem;  
+    border: 0.2rem solid #F7c200;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    background-color: #edededed;
 
 }
-
-#box-label-title,
-#box-label-name-first,
-#box-label-name-last,
-#box-label-pages,
-#box-label-read{
-    display: flex;
-    justify-content: flex-end;
-    width: 25rem;
-    background-color: lawngreen;
-    margin: 0.5rem auto; 
-    align-items: center;
-    font-size: large;
-}
-
-#box-submit{
-    width: 25rem;
-    font-size: large;
-    border: 0.1rem solid pink;
-    margin: 0.5rem auto;
-}
-
-#box-label-read{
-    display: flex; 
-    justify-content: center;
-}
-
-#box-read{
-    margin: 0.5rem 0.6rem 0.5rem 1rem;
-}
-
