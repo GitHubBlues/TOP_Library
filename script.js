@@ -29,21 +29,24 @@ showAllBtn.addEventListener('click', (e) => showAll());
 
 
 /* functions for the Library database */
-function libConstructor(title, first, last, pages, read){
-    this.title = title;
-    this.authorFirst = first;
-    this.authorLast = last;
-    this.pages = pages;
-    this.read = read;
+class libConstructor {
+    constructor(title, first, last, pages, read){
+        this.title = title;
+        this.authorFirst = first;
+        this.authorLast = last;
+        this.pages = pages;
+        this.read = read; 
+    }
+
+    toggleRead(){
+        console.log(this.title);
+    }
+    
+    addRecord(){
+        Library.push(this);
+    }
 }
 
-libConstructor.prototype.toggleRead = function(){
-    console.log(this.title);
-}
-
-libConstructor.prototype.addRecord = function(){
-    Library.push(this);
-}
 
 function resetLibrary(){
     Library = [];
