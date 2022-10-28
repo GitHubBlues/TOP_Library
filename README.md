@@ -11,7 +11,7 @@ Live demo available at: https://githubblues.github.io/TOP_Library/
 - Learn how to better organize the code by using objects as a design pattern. 
 - Gain practice in creating, editing and manipulating objects (e.g. apply constructor functions, practice function inheritance through prototyping)
 - Learning how to use the local storage
-- Use regex for defining the search criterion
+- Use regex for searching for the title in a case-insensitive mode
 	
 ## ***Features***	
 - Functionality for creating and deleting book items
